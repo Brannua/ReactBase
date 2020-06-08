@@ -1,11 +1,13 @@
-import React from 'react';
-import BaseUse from './components/baseUse';
+import React, { Fragment } from 'react';
+// import BaseUse from './components/baseUse';
+import AdvancedUse from './components/AdvancedUse';
 
 function App() {
   return (
-    <div>
-      <BaseUse />
-    </div>
+    <Fragment>
+      {/* <BaseUse /> */}
+      <AdvancedUse />
+    </Fragment>
   );
 }
 
